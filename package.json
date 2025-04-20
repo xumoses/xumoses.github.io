@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "pnpm biome check",
+    "check": "pnpm biome check --write",
     "predeploy": "pnpm build",
     "deploy": "gh-pages -d dist"
   },
