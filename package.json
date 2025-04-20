@@ -9,7 +9,8 @@
 		"preview": "vite preview",
 		"check": "pnpm biome check --write",
 		"predeploy": "pnpm build",
-		"deploy": "gh-pages -d dist"
+		"deploy": "gh-pages -d dist",
+		"prepare": "husky"
 	},
 	"dependencies": {
 		"react": "^19.0.0",
@@ -21,6 +22,7 @@
 		"@types/react-dom": "^19.0.4",
 		"@vitejs/plugin-react": "^4.3.4",
 		"gh-pages": "^6.1.1",
+		"husky": "^9.1.7",
 		"vite": "^6.3.1"
 	}
 }
