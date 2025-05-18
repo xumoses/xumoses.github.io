@@ -1,17 +1,16 @@
-import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router";
 import Navigation from "./components/Navigation";
 import Game from "./pages/Game";
 import Home from "./pages/Home";
 import Knowledge from "./pages/Knowledge";
-import "./App.css";
 
 const Layout = () => {
 	return (
-		<div className="App">
-			<header>
+		<div className="flex flex-col min-h-screen">
+			<header className="py-4 mb-8 border-b border-gray-200">
 				<Navigation />
 			</header>
-			<main>
+			<main className="flex-1 p-4 mx-auto max-w-screen-lg">
 				<Outlet />
 			</main>
 		</div>
