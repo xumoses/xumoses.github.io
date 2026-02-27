@@ -5,6 +5,7 @@
 - Verified build stability with the new version.
 
 ## Recent changes
+- Migrated from `husky` to `simple-git-hooks` for Git hooks management.
 - Migrated Vite from version 7 to 8.0.0-beta.16.
 - Initialized the Memory Bank system.
 - Upgraded all npm dependencies to their latest versions (react-router, @biomejs/biome, tailwindcss, etc.).

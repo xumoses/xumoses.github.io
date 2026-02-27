@@ -17,7 +17,7 @@
 - `clsx`: Utility for constructing className strings.
 - `react-dom`: Entry point to the DOM and server renderers for React.
 - `gh-pages`: For easy deployment to GitHub.
-- `husky`: For Git hooks (linting/formatting before commit).
+- `simple-git-hooks`: For Git hooks (linting/formatting before commit).
 
 ## Architecture
 - Client-side Single Page Application (SPA).
