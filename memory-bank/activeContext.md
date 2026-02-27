@@ -5,6 +5,7 @@
 - Configuring `.clinerules` with the standard Memory Bank specification.
 
 ## Recent changes
+- Upgraded all npm dependencies to their latest versions (react-router, @biomejs/biome, tailwindcss, etc.).
 - Fixed Biome linting errors and updated `biome.json` to support Tailwind CSS directives.
 - Resolved redundant JSX fragments in `Game.jsx`, `Home.jsx`, and `Knowledge/index.jsx`.
 - Initialized the Memory Bank system.

@@ -2,6 +2,7 @@
 
 ## Completed
 - [x] Project scaffolding with Vite and React.
+- [x] Upgraded npm dependencies to latest versions.
 - [x] Basic routing setup (Home, Game, Knowledge).
 - [x] Tailwind CSS integration.
 - [x] Deployment configuration with `gh-pages`.
