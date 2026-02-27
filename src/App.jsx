@@ -1,4 +1,4 @@
-import { Outlet, RouterProvider, createBrowserRouter } from "react-router";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
 import Navigation from "./components/Navigation";
 import Game from "./pages/Game";
 import Home from "./pages/Home";

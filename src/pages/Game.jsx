@@ -1,9 +1,5 @@
 const Game = () => {
-	return (
-		<>
-			<p className="text-lg">Game page</p>
-		</>
-	);
+	return <p className="text-lg">Game page</p>;
 };
 
 export default Game;
