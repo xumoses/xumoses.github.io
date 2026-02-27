@@ -16,6 +16,9 @@
 ## In Progress
 - [ ] Building out specific content for `Game` and `Knowledge` pages.
 
+## Completed
+- [x] Fixed Biome linting errors and configuration.
+
 ## Pending
 - [ ] Enhancing portfolio projects showcase.
 - [ ] Implementing dark mode or theme switcher.

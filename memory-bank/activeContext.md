@@ -5,14 +5,10 @@
 - Configuring `.clinerules` with the standard Memory Bank specification.
 
 ## Recent changes
-- Created `.clinerules` with Memory Bank rules in English.
-- Initialized `memory-bank/` directory.
-- Created `productContext.md`.
+- Fixed Biome linting errors and updated `biome.json` to support Tailwind CSS directives.
+- Resolved redundant JSX fragments in `Game.jsx`, `Home.jsx`, and `Knowledge/index.jsx`.
+- Initialized the Memory Bank system.
 
 ## Next steps
-- Complete the initialization of the remaining Memory Bank files:
-  - `activeContext.md` (this file)
-  - `systemPatterns.md`
-  - `techContext.md`
-  - `progress.md`
-- Verify the Memory Bank structure is complete and accurate.
+- Build out specific content for `Game` and `Knowledge` pages.
+- Enhance portfolio projects showcase.
