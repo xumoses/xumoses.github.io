@@ -1,10 +1,10 @@
 # Active Context
 
 ## What is happening now?
-- Migrated from Vite 7 to Vite 8 beta (`8.0.0-beta.16`).
-- Verified build stability with the new version.
+- Simplifying TypeScript configuration by merging `tsconfig.node.json` into `tsconfig.json`.
 
 ## Recent changes
+- Merged `tsconfig.node.json` into `tsconfig.json` and removed the redundant file.
 - Upgraded TypeScript to `6.0.0-beta`.
 - Migrated project from JavaScript/JSX to TypeScript/TSX.
 - Migrated from `husky` to `simple-git-hooks` for Git hooks management.
