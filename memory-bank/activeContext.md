@@ -5,6 +5,8 @@
 - Verified build stability with the new version.
 
 ## Recent changes
+- Upgraded TypeScript to `6.0.0-beta`.
+- Migrated project from JavaScript/JSX to TypeScript/TSX.
 - Migrated from `husky` to `simple-git-hooks` for Git hooks management.
 - Migrated Vite from version 7 to 8.0.0-beta.16.
 - Initialized the Memory Bank system.

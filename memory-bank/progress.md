@@ -24,6 +24,8 @@
 
 ## Completed
 - [x] Fixed Biome linting errors and configuration.
+- [x] Migrated project from JavaScript/JSX to TypeScript/TSX.
+- [x] Upgraded TypeScript to `6.0.0-beta`.
 
 ## Pending
 - [ ] Enhancing portfolio projects showcase.

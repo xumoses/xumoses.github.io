@@ -1,7 +1,7 @@
 # Tech Context
 
 ## Technical Stack
-- **Language**: JavaScript (ES Modules).
+- **Language**: TypeScript 6.0 Beta (ES Modules).
 - **Framework**: React 19.
 - **Build Tool**: Vite 8 (Beta).
 - **Styling**: Tailwind CSS 4.

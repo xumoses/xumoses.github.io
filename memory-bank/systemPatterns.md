@@ -7,7 +7,7 @@
 - **Deployment**: Static site hosting on GitHub Pages.
 
 ## Design Patterns
-- **Component-based Architecture**: UI is broken down into reusable React components (e.g., `Navigation.jsx`).
+- **Component-based Architecture**: UI is broken down into reusable React components (e.g., `Navigation.tsx`).
 - **Page-based Routing**: Different features are organized into page components located in `src/pages/`.
 - **CSS-in-JS/Utility-first**: Heavy reliance on Tailwind CSS for consistent styling without large CSS files.
 
