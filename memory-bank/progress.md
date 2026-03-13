@@ -20,7 +20,8 @@
 ## Completed
 - [x] Migrated from `husky` to `simple-git-hooks`.
 - [x] Migrated Vite 7 to Vite 8 stable (`8.0.0`) and updated `@vitejs/plugin-react` to 6.0.1.
-- [x] Fixed Biome linting errors and configuration.
+- [x] Fixed Biome linting errors and configuration, including migration to version 2.4.6.
+- [x] Upgraded all project dependencies to their latest versions.
 
 ## Completed
 - [x] Fixed Biome linting errors and configuration.
