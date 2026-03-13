@@ -3,7 +3,7 @@
 ## Technical Stack
 - **Language**: TypeScript 6.0 Beta (ES Modules).
 - **Framework**: React 19.
-- **Build Tool**: Vite 8 (Beta).
+- **Build Tool**: Vite 8 (Stable).
 - **Styling**: Tailwind CSS 4.
 - **Routing**: React Router 7.
 - **Linter/Formatter**: Biome.
