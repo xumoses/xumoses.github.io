@@ -1,0 +1,11 @@
+{
+	"$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/crates/oxlint/src/options/schema.json",
+	"plugins": ["react"],
+	"rules": {
+		"react/self-closing-comp": "error",
+		"react/no-unescaped-entities": "warn",
+		"no-unused-vars": "warn",
+		"prefer-template": "error",
+		"no-else-return": "error"
+	}
+}

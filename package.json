@@ -1,17 +1,17 @@
 {
 	"name": "mo-space",
-	"private": true,
 	"version": "0.0.1",
+	"private": true,
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"type-check": "tsc --noEmit",
+		"lint": "oxlint",
+		"format": "oxfmt --write",
+		"check": "pnpm lint && pnpm format",
 		"deploy": "gh-pages -d dist",
 		"prepare": "simple-git-hooks"
-	},
-	"simple-git-hooks": {
-		"pre-commit": "pnpm biome check --write"
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",
@@ -20,15 +20,19 @@
 		"react-router": "^7.13.1"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.4.8",
 		"@tailwindcss/vite": "^4.2.2",
 		"@types/react": "^19.2.14",
 		"@types/react-dom": "^19.2.3",
 		"@vitejs/plugin-react": "^6.0.1",
 		"gh-pages": "^6.3.0",
+		"oxfmt": "^0.41.0",
+		"oxlint": "^1.56.0",
 		"simple-git-hooks": "^2.13.1",
 		"tailwindcss": "^4.2.2",
 		"typescript": "6.0.0-beta",
 		"vite": "^8.0.1"
+	},
+	"simple-git-hooks": {
+		"pre-commit": "pnpm lint && pnpm format"
 	}
 }
